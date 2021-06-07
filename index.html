@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <title>abdooooo</title>
+</head>
+
+<body>
+    <div id="homeContainer" class="vh-100 w-100 position-absolute py-5 ">
+
+        <div id="signInDiv"
+            class="animate__animated animate__backInLeft position-relative row align-content-around justify-content-around text-center pt-5  mt-4 ">
+            <div class="col-md-6 row flex-column box-shadow p-5">
+                <div class="head">
+                    <h1 class="headerTxt pb-5">Smart Login System</h1>
+                </div>
+                <div class="form-group pt-1 pb-1">
+                    <input id="chEmail" class="form-control mb-2" placeholder="Enter your email">
+                    <div id="emailInError" class="d-none text-danger m-auto text-center  bg-dark px-5 py-1"> </div>
+                </div>
+                <div class="form-group  pb-1">
+                    <div class=" d-flex align-items-center">
+                        <input id="chPassword" type="password" class="form-control mb-2"
+                            placeholder="Enter your password">
+                        <i id="showPassInBtn" class="far fa-eye mx-2"></i>
+                    </div>
+                    <div id="passInError" class="d-none text-danger m-auto text-center  bg-dark px-5 py-1"> </div>
+                </div>
+                <a id="signInBtn" class="btn btn-outline-info" href="#">log in</a>
+                <p class=" py-3 m-auto fa-1x">Don't have an account? <a class="mx-2 text-decoration-none"
+                        id="showSignUp">Sign up</a></p>
+            </div>
+        </div>
+
+        <div id="signUpDiv"
+            class="animate__animated position-relative row align-content-around justify-content-around text-center  pt-5 mt-4">
+            <div class="col-md-6 row flex-column box-shadow p-5">
+                <div class="head">
+                    <h1 class="headerTxt pb-5">Smart SignUp System</h1>
+                </div>
+                <div class="form-group pt-1 pb-1">
+                    <input id="name" class="form-control mb-2" placeholder="Enter your name">
+                    <div id="nameUpError" class="d-none text-danger m-auto text-center  bg-dark px-5 py-1">The name must
+                        be two parts and First letter is Uppercase. <span class="text-primary">Like --->(Abdo
+                            shrief)</span> </div>
+                </div>
+                <div class="form-group pt-1 pb-1">
+                    <input id="email" class="form-control mb-2" placeholder="Enter your email">
+                    <div id="emailUpError" class="d-none text-danger m-auto text-center  bg-dark px-5 py-1"></div>
+                </div>
+                <div class="form-group pt-1 pb-1">
+                    <div class=" d-flex align-items-center">
+                        <input id="password" type="password" class="form-control mb-2 mr-2"
+                            placeholder="Enter  password">
+                        <i id="showPassUpBtn" class="far fa-eye mx-2"></i>
+                    </div>
+                    <div id="passUpError" class="d-none text-danger m-auto text-center  bg-dark px-3 py-1">Password must
+                        be
+                        Minimum 8 characters, at least one letter and one number.</div>
+                </div>
+
+
+                <a id="signUpBtn" class="btn btn-outline-info mt-3" href="#">Sign Up</a>
+                <p class=" py-3 m-auto fa-1x">You have an account?<a class="mx-2 text-decoration-none"
+                        id="showSignIn">Sign in</a></p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- 
+        <input id="name" class="form-control box-shadow-0 my-5" readonly>
+
+        <div class="row mt-5 d-none">
+            <div class="col-md-12 m-auto">
+                <table class="table-striped table text-center table-info">
+                    <thead>
+                        <th>id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </thead>
+
+                    <tbody id="tableBody">
+
+
+                    </tbody>
+
+
+
+                </table>
+            </div>
+        </div>
+    
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

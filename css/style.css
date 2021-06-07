@@ -1,0 +1,88 @@
+body {
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+#welcomeBody{
+    overflow: hidden;
+}
+
+#homeContainer {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#showPassUpBtn,
+#showPassInBtn {
+    cursor: pointer;
+
+}
+
+
+.navbar {
+    z-index: 50;
+}
+
+.box-shadow {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.headerTxt {
+    color: #17a2b8;
+    text-shadow: 0px 0px 10px rgb(25, 18, 255), 0px 0px 5px rgb(255, 18, 25);
+}
+
+.btn-outline-warning:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.btn-outline-warning {
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+#showSignIn,
+#showSignUp,
+a {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    color: #fff;
+}
+
+.col-md-10 h1 {
+    color: #17a2b8;
+}
+
+#showSignIn:hover,
+#showSignUp:hover {
+    color: #17a2b8 !important;
+
+}
+
+#signInDiv {
+    display: flex;
+}
+
+
+#signUpDiv {
+    display: none;
+}
+
+
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+input {
+    background-color: transparent !important;
+
+}
+
+.form-control {
+    color: #fff !important;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
